@@ -69,3 +69,29 @@ func main() {
 }
 
 ```
+
+# How to build?
+
+- Build Image
+
+```sh
+docker build -t imagetag .
+```
+
+- Run container
+
+```sh
+docker run -d -e BOT_TOKEN="2989822:xyzdd" IMAGE_ID
+```
+
+- Stop container
+
+```sh
+docker kill IMAGE_ID -f
+```
+
+- Delete Image
+
+```sh
+docker rmi IMAGE_ID -f
+```
